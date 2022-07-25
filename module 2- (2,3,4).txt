@@ -1,0 +1,101 @@
+MODULE 3
+
+* What is javascript Output method?
+
+Ans - Javascript output defines the ways to display the output of a given code. The output can be display by using four different ways which are listed below.
+JavaScript Output metho:-
+•	Writing into an HTML element, using innerHTML .
+•	Writing into the HTML output using document. write() .
+•	Writing into an alert box, using window. alert() .
+•	Writing into the browser console, using console. log() .
+
+
+* How to used usedJavaScript output method?
+
+Ans -  there are following diffrenet ways of output method.
+
+                  - 1.innerHTML – it is used to access an element. It defines the HTML content.
+                                   Syntax: document.getElementById
+                                                  <html>
+                                                     <head><title>javascript</title>
+                                                     </head>
+                                                        <body>
+                                                            <h1>innerHTML</h1>
+                                                             <pid="inner"></p>
+                                                              <script>document.getElementById("inner").innerHTML=10*3;
+                                                              </script>
+                                                        </body>
+                                                   </html>
+
+
+                 -2. document.write() – it used for trsting purpose.
+                                    Syntax:- document.write()
+                                         Example:- <html>
+                                                    <head><title>javascript</title>
+                                                    </head>
+                                                     <body>
+                                                       <h1>innerHTML</h1>
+                                                       <pid="inner"></p>
+                                                      <script>document.write("inner").innerHTML=10*3;
+                                                      </script>
+                                                     </body>
+                                                    </html>
+
+
+                -3.Window.alert() – it display the contenct using an alert box.
+                                   Syntax:- window.alert()
+                                                   <html>
+                                                     <head><title>javascript</title>
+                                                     </head>
+                                                         <body>
+                                                         <h1>innerHTML</h1>
+                                                         <pid="inner"></p>
+                                                              <script>window.alert("inner").innerHTML;
+                                                             </script>
+                                                         </body>
+                                                    </html>
+
+
+                  -4. console.log() -  it is used for debugging purpose. 
+                                      Syntax: console.log()
+                                                     <html>
+                                                         <head><title>javascript</title>
+                                                        </head>
+                                                           <body>
+                                                           <h1>innerHTML</h1>
+                                                             <pid="inner"></p>
+                                                             <script>console.log("inner");
+                                                        </script>
+                                                           </body>
+                                                     </html>
+
+
+* 4 How to used javascript events to do all example?
+                 Ans - -  there are following diffrenetevent.
+                        •	Input Events
+                        •	Mouse Events
+                        •	Click Events
+                        •	Load Events
+
+
+                            -1.Input Events:-  the input event fires when the value of an <input>,<sekect> or <textarea> element has been changed.
+                                              Example:-
+                                                         Onblur      –   When a user leaves an input field.
+                                                         Onchange     –    When a user changes the content of an field.
+                                                         Onfocus    –   When an input fiels gets focus .
+                                                         Onselect    –   When a user clicks the reset button.
+                                                         Onkeydown    -   When  a user is pressing/holding down a key.
+                                                         Onkeypress    -   When a user is pressing/holdibg down a key.
+                                                         Onkeyup      -  When the user releases a key.
+
+
+                             -2.Mouse Events:-  mouse event fire when you use the mouse to interact with the element on the page.
+                                            Example:-
+                                                        Mousdown  -  it is use depress the mosue button on the element.
+                                                        Mouseup – it is use release the mouse button on the element.
+
+
+                             -3.Click Events  :-it is use one mousedown and mouseup detects on the element.
+                                                Example:
+                                                            Onnclick  -  when button is clicked
+                                                            Ondbclick – when  a text is double-clciked
